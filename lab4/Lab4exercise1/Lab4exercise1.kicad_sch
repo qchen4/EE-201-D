@@ -372,7 +372,7 @@
     (property "Value" "LED" (id 1) (at 165.1 104.4574 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 161.29 101.6 0)
+    (property "Footprint" "LED_D5.0mm" (id 2) (at 161.29 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 161.29 101.6 0)
@@ -387,7 +387,7 @@
     (uuid 6ba9c85f-12d6-43f5-8af7-a3248b4bdc7d)
     (property "Reference" "SW1" (id 0) (at 107.95 67.31 0))
     (property "Value" "SW_1" (id 1) (at 107.95 69.85 0))
-    (property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled" (id 2) (at 107.95 74.93 0)
+    (property "Footprint" "SW_E-Switch_EG1224_SPDT_Angled" (id 2) (at 107.95 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 107.95 74.93 0)
@@ -403,7 +403,7 @@
     (uuid b6c90dab-63ed-498f-a150-3254824338f6)
     (property "Reference" "R2" (id 0) (at 95.25 68.58 90))
     (property "Value" "2.2k" (id 1) (at 95.25 71.12 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 95.25 76.708 90)
+    (property "Footprint" "R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 95.25 76.708 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 95.25 74.93 0)
@@ -446,7 +446,7 @@
     (property "Value" "4.7 uF" (id 1) (at 124.46 96.9009 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm" (id 2) (at 121.6152 100.33 0)
+    (property "Footprint" "C_Radial_D5.0mm_H5.0mm_P2.00mm" (id 2) (at 121.6152 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 96.52 0)
@@ -465,7 +465,7 @@
     (property "Value" "20k " (id 1) (at 163.83 88.8999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 159.512 87.63 90)
+    (property "Footprint" "R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 159.512 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 161.29 87.63 0)
@@ -481,22 +481,22 @@
 
   (symbol_instances
     (path "/e88387fc-ef5c-47a5-948a-2676775961fc"
-      (reference "C1") (unit 1) (value "4.7 uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm")
+      (reference "C1") (unit 1) (value "4.7 uF") (footprint "C_Radial_D5.0mm_H5.0mm_P2.00mm")
     )
     (path "/091b0094-43bf-449b-99d1-e3c8f9287997"
-      (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_D5.0mm")
     )
     (path "/cc18f9b8-afcf-4a11-be6c-ce9b6d5a2628"
       (reference "J1") (unit 1) (value "Conn_01x02_Male") (footprint "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical (Li-po battery connector) ")
     )
     (path "/ef912799-de7d-4ee6-91e5-71216c4175af"
-      (reference "R1") (unit 1) (value "20k ") (footprint "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
+      (reference "R1") (unit 1) (value "20k ") (footprint "R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
     )
     (path "/b6c90dab-63ed-498f-a150-3254824338f6"
-      (reference "R2") (unit 1) (value "2.2k") (footprint "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
+      (reference "R2") (unit 1) (value "2.2k") (footprint "R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
     )
     (path "/6ba9c85f-12d6-43f5-8af7-a3248b4bdc7d"
-      (reference "SW1") (unit 1) (value "SW_1") (footprint "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled")
+      (reference "SW1") (unit 1) (value "SW_1") (footprint "SW_E-Switch_EG1224_SPDT_Angled")
     )
   )
 )
